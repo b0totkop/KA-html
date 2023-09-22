@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    border: 0px;
+    background-color: wheat;
+}
+.container{
+    width: 45%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+.container2{
+    width: 45%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+}
+.fekete{
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    top: 800px;
+    left: 1600px;
+    position: absolute;
+}
+.lila{
+    background-color: purple;
+    flex-grow: 1;
+}
+.sarga{
+    background-color: orange;
+    flex-grow: 1;
+    
+}
+.kek{
+    background-color: blue;
+    flex-grow: 2;
+}
+.vilagoskek{
+    background-color: lightblue;
+    flex-grow: 1;
+    
+}
+.piros{
+    background-color: red;
+    flex-grow: 4;
+    margin-left: 50px;
+    margin-right: 50px;
+}
