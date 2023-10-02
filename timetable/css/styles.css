@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://vasvari.org/wp-content/themes/vasvari/img/share.png?v=1613128456');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding: 20px;
+}
+
+header{
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: #ffffff;
+    font-weight: bold;
+    transition: background-color 1.0s;
+}
+.dark-mode header {
+    background-color: #333;
+    color: #fff;
+    border: 3px solid white;
+    transition: background-color 1.0s;
+}
+
+.mode-toggle {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.mode-toggle img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.timetable {
+    display: flex;
+    flex-direction: column;
+    border-collapse: collapse;
+}
+
+.timetable-row {
+    display: flex;
+}
+
+.timetable-cell {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin: 5px;
+    transition: background-color 1.0s;
+}
+.dark-mode .timetable-cell {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid white;
+    transition: background-color 1.0s;
+}
+
+.timetable-endcell{
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin: 5px;
+    transition: background-color 1.0s;
+}
+.dark-mode .timetable-endcell {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid white;
+    transition: background-color 1.0s;
+}
+
+.end{
+    border: 2px solid black;
+    font-weight: bold;
+}
+.dark-mode .end{
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+.dark-mode .ns{
+    border-style: hidden;
+    background-color: #ffffff00;
+}
+.ns{
+    border-style: hidden;
+    background-color: #ffffff00;
+}
+
+.week{
+    border: 2px solid black;
+    font-weight: bold;
+}
+.dark-mode .week{
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+.time{
+    border: 2px solid black;
+    font-weight: bold;
+}
+.dark-mode .time{
+    border: 2px solid white;
+    font-weight: bold;
+}

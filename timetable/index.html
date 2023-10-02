@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Órarend</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css\styles.css'>
+    <link rel="icon" href="img/vp.png">
+</head>
+<body>
+    <div class="container">
+        <header>12.b-inf</header>
+        <div class="mode-toggle">
+            <input type="checkbox" id="mode-switch" style="display: none;">
+            <label for="mode-switch">
+                <img id="dark-mode-img">
+            </label>
+        </div>
+        <div class="timetable">
+            <div class="timetable-row">
+                <div class="timetable-cell ns"></div>
+                <div class="timetable-cell week">Hétfő</div>
+                <div class="timetable-cell week">Kedd</div>
+                <div class="timetable-cell week">Szerda</div>
+                <div class="timetable-cell week">Csütörtök</div>
+                <div class="timetable-cell week">Péntek</div>
+                <div class="timetable-endcell end">Szombat</div>
+                <div class="timetable-endcell end">Vasárnap</div>
+            </div>
+            <div class="timetable-row">
+                <div class="timetable-cell time">8:00 - 8:45</div>
+                <div class="timetable-cell"><sub>Szt1</sub> IKT II. <sub>GyCs</sub></div>
+                <div class="timetable-cell ns"></div>
+                <div class="timetable-cell ns"></div>
+                <div class="timetable-cell ns"></div>
+                <div class="timetable-cell"><sub>K3</sub> Szang <sub>BJ</sub></div>
+                <div class="timetable-endcell ns"></div>
+                <div class="timetable-endcell ns"></div>
+            </div>
+            <div class="timetable-row">
+                <div class="timetable-cell time">8:55 - 9:40</div>
+                <div class="timetable-cell"><sub>Szt1</sub> aszalfejl <sub>GyCs</sub></div>
+                <div class="timetable-cell"><sub>K1</sub> Mat <sub>KT</sub></div>
+                <div class="timetable-cell ns"></div>
+                <div class="timetable-cell"><sub>14</sub> Ir <sub>HÉ</sub></div>
+                <div class="timetable-cell"><sub>Szt2</sub> W(I <sub>KA</sub></div>
+                <div class="timetable-endcell ns"></div>
+                <div class="timetable-endcell ns"></div>
+            </div>
+            <div class="timetable-row">
+                <div class="timetable-cell time">9:55 - 10:40</div>
+                <div class="timetable-cell"><sub>zsib</sub> Ang <sub>BJ</sub></div>
+                <div class="timetable-cell"><sub>nylab</sub> Szang <sub>BJ</sub></div>
+                <div class="timetable-cell"><sub>14</sub> tört <sub>DZ</sub></div>
+                <div class="timetable-cell"><sub>30</sub> tört <sub>DZ</sub></div>
+                <div class="timetable-cell"><sub>tani</sub> webprg <sub>KT</sub></div>
+                <div class="timetable-endcell ns"></div>
+                <div class="timetable-endcell ns"></div>
+            </div>
+            <div class="timetable-row">
+                <div class="timetable-cell time">10:50 - 11:35</div>
+                <div class="timetable-cell"><sub>14</sub> Ny <sub>HÉ</sub></div>
+                <div class="timetable-cell"><sub>K2</sub> Ang <sub>BJ</sub></div>
+                <div class="timetable-cell"><sub>7</sub> Szang <sub>BJ</sub></div>
+                <div class="timetable-cell"><sub>13</sub> Ái <sub>DZ</sub></div>
+                <div class="timetable-cell"><sub>nylab</sub> Ipl(I <sub>KA</sub></div>
+                <div class="timetable-endcell ns"></div>
+                <div class="timetable-endcell ns"></div>
+            </div>
+            <div class="timetable-row">
+                <div class="timetable-cell time">11:45 - 12:30</div>
+                <div class="timetable-cell"><sub>14</sub> Ir <sub>HÉ</sub></div>
+                <div class="timetable-cell"><sub>Szt3</sub> aszalfejl <sub>GyCs</sub></div>
+                <div class="timetable-cell"><sub>Szt2</sub> Ang <sub>BJ</sub></div>
+                <div class="timetable-cell"><sub>Szt1</sub> aszalfejl <sub>GyCs</sub></div>
+                <div class="timetable-cell"><sub>K1</sub> Mat <sub>KT</sub></div>
+                <div class="timetable-endcell ns"></div>
+                <div class="timetable-endcell ns"></div>
+            </div>
+            <div class="timetable-row">
+                <div class="timetable-cell time">12:45 - 13:30</div>
+                <div class="timetable-cell"><sub>30</sub> tört <sub>DZ</sub></div>
+                <div class="timetable-cell"><sub>14</sub> tört <sub>DZ</sub></div>
+                <div class="timetable-cell"><sub>zsib</sub> Mat <sub>KT</sub></div>
+                <div class="timetable-cell"><sub>5</sub> Mat <sub>KT</sub></div>
+                <div class="timetable-cell"><sub>Szt1</sub> IKT II <sub>GyCs</sub></div>
+                <div class="timetable-endcell ns"></div>
+                <div class="timetable-endcell ns"></div>
+            </div>
+            <div class="timetable-row">
+                <div class="timetable-cell time">13:40 - 14:25</div>
+                <div class="timetable-cell"><sub>T</sub> test <sub>DE</sub></div>
+                <div class="timetable-cell"><sub>14</sub> Ir <sub>HÉ</sub></div>
+                <div class="timetable-cell ns"></div>
+                <div class="timetable-cell ns"></div>
+                <div class="timetable-cell"><sub>Szt1</sub> aszalfejl <sub>GyCs</sub></div>
+                <div class="timetable-endcell ns"></div>
+                <div class="timetable-endcell ns"></div>
+            </div>
+            <div class="timetable-row">
+                <div class="timetable-cell time">14:30 - 15:15</div>
+                <div class="timetable-cell"><sub>T</sub> test <sub>DE</sub></div>
+                <div class="timetable-cell"><sub>13</sub> Of <sub>BJ</sub></div>
+                <div class="timetable-cell ns"></div>
+                <div class="timetable-cell ns"></div>
+                <div class="timetable-cell"><sub>T</sub> test <sub>DE</sub></div>
+                <div class="timetable-endcell ns"></div>
+                <div class="timetable-endcell ns"></div>
+            </div>
+            <div class="timetable-row">
+                <div class="timetable-cell time">15:20 - 16:00</div>
+                <div class="timetable-cell ns"></div>
+                <div class="timetable-cell ns"></div>
+                <div class="timetable-cell ns"></div>
+                <div class="timetable-cell"><sub>14</sub> szoftteszt <sub>NyT</sub></div>
+                <div class="timetable-cell ns"></div>
+                <div class="timetable-endcell ns"></div>
+                <div class="timetable-endcell ns"></div>
+            </div>
+            <div class="timetable-row">
+                <div class="timetable-cell time">16:05 - 16:45</div>
+                <div class="timetable-cell ns"></div>
+                <div class="timetable-cell ns"></div>
+                <div class="timetable-cell ns"></div>
+                <div class="timetable-cell"><sub>14</sub> szoftteszt <sub>NyT</sub></div>
+                <div class="timetable-cell ns"></div>
+                <div class="timetable-endcell ns"></div>
+                <div class="timetable-endcell ns"></div>
+            </div>
+            <div class="timetable-row">
+                <div class="timetable-cell time">16:50 - 17:30</div>
+                <div class="timetable-cell ns"></div>
+                <div class="timetable-cell ns"></div>
+                <div class="timetable-cell ns"></div>
+                <div class="timetable-cell ns"></div>
+                <div class="timetable-cell ns"></div>
+                <div class="timetable-endcell ns"></div>
+                <div class="timetable-endcell ns"></div>
+            </div>
+            <div class="timetable-row">
+                <div class="timetable-cell time">17:35 - 18:15</div>
+                <div class="timetable-cell ns"></div>
+                <div class="timetable-cell ns"></div>
+                <div class="timetable-cell"><sub>3</sub> Éf <sub>HÉ</sub></div>
+                <div class="timetable-cell ns"></div>
+                <div class="timetable-cell ns"></div>
+                <div class="timetable-endcell ns"></div>
+                <div class="timetable-endcell ns"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js\script.js"></script>
+</body>
+</html>
