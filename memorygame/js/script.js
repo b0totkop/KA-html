@@ -8,7 +8,7 @@ let c2;
 
 function Random() {   
     let random = Math.floor(Math.random() * cards.length);
-    for(let i = cards.length - 3; i >= 0; i--) {
+    for(let i = cards.length - 1; i >= 0; i--) {
         rand.push(cards.splice(random, 1));
         random = Math.floor(Math.random() * i);
     }
@@ -45,15 +45,17 @@ function TurnB() {
 }
 
 function Disappear() {
+    if(hit >= 10) {
+        setTimeout(() => {
+            alert("Gratulálok!");
+            setTimeout(() => {
+                Render();
+            }, 2000);
+        }, 500);
+    }
     for(let i = 0; i < 2; i++) {
         document.querySelector(".card:nth-of-type(" + clickedIndex[i] + ")").style.visibility = 'hidden';
-    }
-    hit += 1;
-    if(hit == 5) {
-        alert("Gratulálok!");
-        setTimeout(() => {
-            Render();
-        }, 2000);
+        hit += 1;
     }
 }
 
