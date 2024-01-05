@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    text-align: center;
+}
+
+#cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.card {
+    border: 1px solid #610000;
+    background-color: #610000;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 10px;
+}
