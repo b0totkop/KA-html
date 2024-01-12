@@ -13,4 +13,5 @@ function odd(tomb) {
     return sum;
 }
 
+odd(tomb);
 document.getElementById("ki").innerHTML = "Páratlan számok összege a köbön: " + sum;
