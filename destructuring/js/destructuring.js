@@ -20,10 +20,10 @@ let book = {
     language: 'English'
     };
 
-let {title, author, publicationYear, language} = book;
+let {bookTitle = book.title , bookAuthor = book.author, publicationYear, language} = book;
 
-console.log(title);
-console.log(author);
+console.log(bookTitle);
+console.log(bookAuthor);
 console.log(publicationYear);
 console.log(language);
 
