@@ -24,7 +24,7 @@ function show(user) {
     ki += "<td>" + user.email + "</td>";
     ki += "<td>" + user.birthDate + "</td>";
     ki += "<td>" + user.login.username + "</td>";
-    ki += "<td>" + user.address.stdeet + "</td>";
+    ki += "<td>" + user.address.street + "</td>";
     ki += "<td>" + user.phone + "</td>";
     ki += "<td>" + user.website + "</td>";
     ki += "<td>" + user.company.name + "</td>";
