@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>magyarAPI</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script defer src='js/script.js'></script>
+    <style>
+        th, td{
+            margin: auto;
+            border: 1px solid rgb(0, 0, 0);
+            max-width: fit-content;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <input id="input" type="text">
+    <button onclick="api()" type="button">Lekérés</button>
+    <div id="er"></div>
+    <table id="table">
+        <tr>
+            <th>id</th>
+            <th>country_id</th>
+            <th>zip</th>
+            <th>name</th>
+            <th>lat</th>
+            <th>lng</th>
+            <th>country.id</th>
+            <th>country.name</th>
+        </tr>
+    </table>
+</body>
+</html>
