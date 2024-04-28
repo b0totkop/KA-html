@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Kurzusok</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css\styles.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <div class="topbar">
+        <form class="container">
+            <input type="text" id="search" placeholder="Keresés..." autocomplete="off">
+        </form>
+    </div>
+    <div class="header">
+        <div class="headeritem">
+            <button id="load">Kurzusok betöltése</button>
+        </div>
+        <div id="loading" style="display: none;"><i class="fas fa-spinner fa-spin"></i></div>
+        <div class="headeritem">
+            <form id="newCourse">
+                <input type="text" id="courseName" placeholder="Új kurzus neve" required>
+                <button type="submit">Kurzus létrehozása</button>
+            </form>
+        </div>
+    </div>
+    <ul id="list"></ul>
+</body>
+</html>
