@@ -127,21 +127,19 @@ async function addStudent(courseId, studentName) {
 async function editStudent(studentId, currentName, courseId) {
     try {
         let newName = prompt("Adja meg a diák új nevét:", currentName);
-        if (newName) {
-            const response = await fetch(`https://vvri.pythonanywhere.com/api/students/${studentId}`, {
-                method: 'PUT',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ name: newName, course_id: courseId })
-            })
-            const data = await response.json()
-            load()
-            if (data)
-                data.forEach(element => {
-                    console.log(element)
-            })
-        }
+        const response = await fetch(`https://vvri.pythonanywhere.com/api/students/${studentId}`, {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ name: newName, course_id: courseId })
+        })
+        const data = await response.json()
+        load()
+        if (data)
+            data.forEach(element => {
+                console.log(element)
+        })
     }
     catch(error) { 
         console.log("Hiba történt: " + error)
